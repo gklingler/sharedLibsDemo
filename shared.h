@@ -3,15 +3,7 @@
 
 #include "shared_EXPORTS.h"
 
-#ifdef __cplusplus
-extern "C" {
-#endif
-
-void SHARED_EXPORT f();
-
-#ifdef __cplusplus
-} // end extern "C"
-#endif
+extern "C" void SHARED_EXPORT f();
 
 class SHARED_EXPORT X {
 public:
